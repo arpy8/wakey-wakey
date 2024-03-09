@@ -24,4 +24,4 @@ jobs:
           pip install -r reqs.txt
           
       - name: Execute Python script
-        run: python keep-alive.py
+        run: python main.py

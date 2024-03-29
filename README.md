@@ -1,5 +1,7 @@
+# wakey-wakey
 ![](https://media.tenor.com/xjz9JUm5XuwAAAAe/rooster-morning.png)
 
+This is a rooster for my web apps and websites to prevent them from going into sleep mode. The reveiver.yml file runs every ~15 minutes~ hour automatically.
 
 # Uh oh
 ![image](https://github.com/arpy8/wakey-wakey/assets/74809468/a6c75946-5cb4-42e0-99e1-33510730d67e)

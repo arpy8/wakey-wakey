@@ -1,4 +1,2 @@
-https://tt-webapp.onrender.com/
-https://aic-treasure-hunt-code-protocol-e.onrender.com/
+https://omdena-algeria-bhopal-streamlit-app.onrender.com/
 https://limbo-1jp4.onrender.com/
-https://disdial-5glu.onrender.com/

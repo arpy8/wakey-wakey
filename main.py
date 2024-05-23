@@ -1,5 +1,4 @@
 import requests
-from termcolor import colored
 
 def main():
     with open("urls.txt", "r") as file:
@@ -11,13 +10,15 @@ def main():
             
             if response.status_code == 200:
                 try:
-                    response = response.raw
-                    print(colored(f"URL: {link}\n", "blue")+
-                          colored(f"Resp: {response}\n", "green"))
+                    print(f"""
+                    url: {link}
+                    resp: {response.status_code}
+                    """)
                 except requests.exceptions.RequestException as e:
-                    print(colored(f"Error: {e}", "red"))
+                    print(f"error: {e}")
             else:
-                print(colored(f"Error: {response.status_code}, {response.text}", "red"))
+                print(f"error: {response.status_code}, {response.text}")
 
 if __name__ == "__main__":
     main()
+    

@@ -1,1 +1,2 @@
-https://www.google.com/
+https://omdena-irex-el-salvador-sentiment-analysis-app-demo.streamlit.app/
+https://omdena-hotosm-demo-app.streamlit.app/a
